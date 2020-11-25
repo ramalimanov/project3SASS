@@ -1,0 +1,16 @@
+header{
+    background-color: $C1;
+    text-align: center;
+    padding-bottom: 112px;
+    padding-top: calc(112px + 10rem);
+    h1{
+        font-size: 7.6rem;
+        color: $C2;
+    }
+    h2{
+        font-size: 2.8rem;
+        color: $C2;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+}

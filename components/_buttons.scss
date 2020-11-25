@@ -1,0 +1,30 @@
+.btn{
+	margin-top: 2rem;
+	font-size: 2rem;
+	font-weight: 400;
+	display: inline-block;
+	background-color: transparent;
+	border-radius: .5rem;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.btn-outline{
+	border: 2px solid $C2;
+	color: $C2;
+    padding: 2.4rem 1.6rem;
+    &:hover{
+        color: $C7;
+        background-color: $C2;
+    }
+}
+.btn-primary{
+	border: 2px solid $C2;
+	background-color: $C3;
+	color: $C2;
+    padding: 1.2rem 1rem;
+    &:hover{
+        color: $C7;
+        border-color: $C7;
+    }
+}

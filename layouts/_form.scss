@@ -1,0 +1,32 @@
+#contact h2{
+    font-size: 4.8rem;
+    color: $C4;
+}
+
+#contact-form{
+    width: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.form-group{
+	border-bottom: 1px solid $C7;
+	padding-bottom: 1rem;
+    margin-bottom: 4rem;
+    input{
+        border: none;
+        font-size: 3rem;
+        width: 100%;
+        display: block;
+        padding-left: 1rem;
+        outline: 0;
+    }
+    textarea{
+        border: none;
+        font-size: 3rem;
+        width: 100%;
+        display: block;
+        padding-left: 1rem;
+        outline: 0;
+    } //Bura mixin elave et
+}

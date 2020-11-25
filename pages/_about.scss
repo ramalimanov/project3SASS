@@ -1,0 +1,23 @@
+#about{
+	background-color: $C6;
+    color: $C2;
+    h2{
+        font-size: 4.8rem;
+    }
+}
+#about-text{
+	text-align: left;
+    font-size: 2rem;
+    .left{
+        float: none;
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 25px;
+    }
+    .right{
+        float: none;
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 25px;
+    }
+}
