@@ -9,15 +9,9 @@
 	text-align: left;
     font-size: 2rem;
     .left{
-        float: none;
-        width: 100%;
-        padding-right: 5px;
-        padding-left: 25px;
+        @include about1 ;
     }
     .right{
-        float: none;
-        width: 100%;
-        padding-right: 5px;
-        padding-left: 25px;
+        @include about1 ;
     }
 }

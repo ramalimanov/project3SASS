@@ -4,3 +4,70 @@ $C3 : red;
 $C4 : #2C3E50;
 $C6 : #039174;
 $C7 : black;
+
+@mixin form1 {
+    border: none;
+    font-size: 3rem;
+    width: 100%;
+    display: block;
+    padding-left: 1rem;
+    outline: 0;
+}
+@mixin about1 {
+    float: none;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 25px;
+}
+@mixin ed-pr-body {
+    position: relative;
+    width: 100%;
+    max-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 25px;  
+}
+@mixin card-body {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: $C1;
+    margin: 30px 60px;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px $C7;
+    transition: 0.3s ease-in-out;
+}
+@mixin content1 {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+@mixin content2 {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: $C7;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+@mixin box1 {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px $C7;
+}
+@mixin pr-ed-img1 {
+    max-width: 100%;
+    border-radius: 4px;
+}

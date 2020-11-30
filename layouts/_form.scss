@@ -14,19 +14,9 @@
 	padding-bottom: 1rem;
     margin-bottom: 4rem;
     input{
-        border: none;
-        font-size: 3rem;
-        width: 100%;
-        display: block;
-        padding-left: 1rem;
-        outline: 0;
+        @include form1;
     }
     textarea{
-        border: none;
-        font-size: 3rem;
-        width: 100%;
-        display: block;
-        padding-left: 1rem;
-        outline: 0;
-    } //Bura mixin elave et
+        @include form1;
+    }
 }
